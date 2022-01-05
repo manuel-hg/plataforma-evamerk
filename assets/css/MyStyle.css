@@ -1,0 +1,106 @@
+.pd0{
+    padding:0px;
+}    
+
+
+.bg-green{
+	background-color: #275b66;
+}
+
+.modal-header-green {
+    background: #275b66;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #275b66 !important;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+.modal-green {
+    background: #275b66;
+    border:0;
+}
+.modal-cont {
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    border-radius: 0.3rem;
+    outline: 0;
+}
+.modal-foo {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+
+.close-green {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #8ed2ed !important;
+    text-shadow: 0 1px 0 #fff !important;
+    opacity: .5;
+}
+
+.close-green:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-control-green {
+    border: 2px solid #469eb2 !important;
+    border-radius: 0.9rem !important;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "Seleccione imagen";
+}
+
+.bg-image{
+	background-image: url('../../assets/img/login-evamerc.png');
+	background-size: 100%;
+}
+
+.border-rounded{
+    border-radius: 1rem;
+}
+
+.dropdown-divider-green {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-bottom: 3px solid #275b66;
+}
+
+.text-green{
+    color: #275b66 !important;
+}
+
+.text-green2{
+    color: #469eb2 !important;
+}
+
+
+.btn-green {
+    color: #fff;
+    background-color: #275b66 !important;
+    border-color: #275b66 !important;
+    border-radius: 1rem !important;
+}
+
+.btn-green:hover {
+    color: #fff !important;
+    background-color: #4692a2 !important;
+    border-color: #4692a2 !important;
+    border-radius: 1rem !important;
+}

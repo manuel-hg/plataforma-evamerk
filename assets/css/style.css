@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.pd0{
+    padding-left: 0;
+    padding: 0;
+}
+.m0{
+    margin: 0;
+}
+.navegacion{
+    background: #275b66;
+    
+}
+.navegacion ul{
+    list-style: none;
+    
+}
+.menu > li{
+    position: relative;
+    display: inherit;
+}
+.menu > li > a {
+    text-align: center;
+    display: inherit;
+    padding: 15px 90px;
+    color: #469eb2;
+    font-family: inherit;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+
+    color: #469eb2;
+    transition: all .4;
+    position: static;
+    background-color: #1f4c55;
+
+}
+
+.submenu {
+    position: absolute;
+    background: #275b66;
+    width: 50%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    left: 100%;
+
+}
+
+.submenu li a {
+    display: block;
+    text-align: center;
+    color: #469eb2;
+    font-family: inherit;
+    text-decoration: none;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-left: 30px solid #1f4c55;
+    border-bottom: 25px solid transparent;
+}
+.menu li:hover .submenu{
+    top: 0px;
+    visibility: visible;
+    opacity: 1;
+   
+   
+}
+.form-group{
+    color: antiquewhite;
+    width: 10%;
+    margin: auto;
+    padding: 5px 300px 7px 20px;
+        
+}
+table{
+    display: inline;
+    border-collapse: collapse;
+    width: 10%;
+    color: aquamarine;
+}
+th, td{
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: dodgerblue;
+}
+.logo_inicio img{
+  width: 70%;
+    
+}
+.logo_user{
+    height: 100px;
+     background-color: #1f4c55;
+  
+}
+.logo_user img{
+       margin: 10px 0px 10px 15px;
+    width: 80px;
+    height: 80px;
+}
+.tienda {
+    line-height: center;
+    color: #469eb2;
+    width: 225px;
+    margin-top: 16px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 10pt;
+    background: #275b66;
+
+}
+
+h2 {
+  color: white;
+  font-size: 12pt;
+  font-family: bold;
+  margin-left: 115px;
+
+    
+}
+span{display:block;font-size:.8em;margin:0px 0 10px;padding:5px 0 5px 11px;width:200px}
+.confirmacion{background:#C6FFD5;border:1px solid green;}
+.negacion{background:#ffcccc;border:1px solid red}
+
+label {
+	display: block;
+}
+
+div#error2 {
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	position: relative;
+	top: 5px;
+}
